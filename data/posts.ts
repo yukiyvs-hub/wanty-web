@@ -1,0 +1,14 @@
+import type { Post } from "@/types";
+
+export const posts: Post[] = [
+  { id: "p1", authorName: "佐藤 はる", petName: "こむぎ", petBreed: "トイプードル", area: "東京", type: "photo", title: "犬見知りでも過ごせたカフェ", body: "席の間隔が広く、スタッフさんもそっと見守ってくれて、こむぎも落ち着いて過ごせました。", tags: ["カフェ", "店内OK", "犬見知り"], likes: 128, comments: 16, saves: 42, relatedSpotId: "s1", createdAt: "2026-05-01" },
+  { id: "p2", authorName: "村上 亮", petName: "だいず", petBreed: "柴犬", area: "横浜", type: "diary", title: "朝の海沿い散歩が気持ちよかった", body: "人が少ない時間帯だと柴距離を保ちながら歩けて、帰りにテラスで休憩できました。", tags: ["散歩", "横浜", "朝活"], likes: 96, comments: 9, saves: 25, relatedSpotId: "s5", createdAt: "2026-04-28" },
+  { id: "p3", authorName: "山口 めい", petName: "ブラン", petBreed: "フレンチブルドッグ", area: "東京", type: "question", title: "暑くなる前のおでかけ先、どう選んでますか？", body: "短時間で休憩しやすい場所を探しています。屋内で過ごしやすかった場所があれば知りたいです。", tags: ["相談", "暑さ対策", "室内"], likes: 74, comments: 22, saves: 18, createdAt: "2026-04-26" },
+  { id: "p4", authorName: "高橋 直", petName: "ルーク", petBreed: "ゴールデンレトリバー", area: "千葉", type: "review", title: "大型犬でも安心だったドッグラン", body: "大型犬エリアが広く、水場も近くて助かりました。初回は午前中が穏やかそうです。", tags: ["ドッグラン", "大型犬", "千葉"], likes: 154, comments: 18, saves: 61, relatedSpotId: "s2", createdAt: "2026-04-23" },
+  { id: "p5", authorName: "井上 あや", petName: "モカ", petBreed: "ミニチュアダックス", area: "那須", type: "review", title: "シニア犬と泊まった宿", body: "段差が少なく、部屋から外に出やすい導線。ゆっくり過ごしたい子に合いそうでした。", tags: ["宿泊", "シニア犬", "那須"], likes: 132, comments: 14, saves: 58, relatedSpotId: "s3", createdAt: "2026-04-20" },
+  { id: "p6", authorName: "林 まこと", petName: "テン", petBreed: "保護犬MIX", area: "埼玉", type: "video", title: "車なしで行けた公園ルート", body: "駅から歩ける距離で、途中に休憩できるベンチも多め。初めての電車移動の練習にもよかったです。", tags: ["車なし", "公園", "保護犬"], likes: 88, comments: 12, saves: 37, relatedSpotId: "s4", createdAt: "2026-04-18" },
+  { id: "p7", authorName: "森 かな", petName: "ポポ", petBreed: "チワワ", area: "東京", type: "photo", title: "雨の日に助かった室内スポット", body: "床が滑りにくく、混みすぎていない時間帯なら小型犬でも安心して過ごせました。", tags: ["雨の日", "小型犬", "室内"], likes: 111, comments: 11, saves: 46, relatedSpotId: "s6", createdAt: "2026-04-16" },
+  { id: "p8", authorName: "小川 仁", petName: "ハナ", petBreed: "ラブラドール", area: "伊豆", type: "review", title: "海辺の観光施設で気をつけたこと", body: "日陰と水分補給の場所を先に確認。大型犬OKでも混雑時間は避けると過ごしやすいです。", tags: ["伊豆", "観光", "大型犬"], likes: 92, comments: 8, saves: 33, relatedSpotId: "s7", createdAt: "2026-04-14" },
+  { id: "p9", authorName: "中村 ゆい", petName: "ラテ", petBreed: "ポメラニアン", area: "千葉", type: "diary", title: "多頭飼いのカフェ練習", body: "短い滞在から始めたら、2頭とも落ち着いていられる時間が少し伸びました。", tags: ["多頭飼い", "カフェ", "練習"], likes: 69, comments: 7, saves: 19, relatedSpotId: "s8", createdAt: "2026-04-12" },
+  { id: "p10", authorName: "田中 さき", petName: "そら", petBreed: "コーギー", area: "大阪", type: "question", title: "買ってよかったペットカートを知りたい", body: "電車移動とカフェ利用が多いです。小回りと収納でおすすめがあれば教えてください。", tags: ["商品レビュー", "移動", "相談"], likes: 80, comments: 24, saves: 29, createdAt: "2026-04-10" }
+];
